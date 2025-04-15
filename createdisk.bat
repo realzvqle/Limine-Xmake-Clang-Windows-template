@@ -1,7 +1,7 @@
 @echo off
 
 
-
+copy limine.conf limine\boot\limine\limine.conf
 if exist image\image.vhd del del image\image.vhd
 if exist root rd root /s /q
 md root
